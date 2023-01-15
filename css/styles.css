@@ -90,7 +90,14 @@ img {
     right: 0;
     
     background-color: #fff;
+
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
   } 
+  .mobile-menu.is-open {
+    transform: translateX(0);
+  }
   .btn-mobile-menu-close {
     position: absolute;
     right: 40px;
