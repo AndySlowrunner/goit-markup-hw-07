@@ -558,6 +558,9 @@ img {
     margin-bottom: 40px;
     margin-left: 40px;
    }
+  .mobile-auth-nav {
+    max-width: 337px;
+  }
   .mobile-auth-nav .auth-link-tel {
     display: block;
 
@@ -586,6 +589,7 @@ img {
     justify-content: space-between;
     margin-top: 48px;
     margin-right: 60px;
+    max-width: 328px;
   }
   .mobile-link-box {
     display: flex;
@@ -700,6 +704,7 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 428px;
   }
   .info-container {
     margin-left: auto;
