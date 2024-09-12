@@ -59,6 +59,16 @@ img {
 /* ALL DEVICES */
 
 @media screen and (min-width: 320px) {
+
+/* Portfolio Filter */
+  .filter-list {
+    display: grid;
+    grid-auto-flow: column;
+    /* justify-content: center; */
+
+    padding-bottom: 72px;
+  }
+
   .btn-primery {
     color: var(--primery-white-color);
     background: var(--primery-color);
